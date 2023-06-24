@@ -3,5 +3,12 @@
   "semi": true,
   "trailingComma": "es5",
   "tabWidth": 2,
-  "useTabs": false
+  "useTabs": false,
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "jsxSingleQuote": false,
+  "quoteProps": "as-needed",
+  "rangeStart": 0,
+  "rangeEnd": 99999,
+  "singleQuote": true
 }
