@@ -1,0 +1,22 @@
+name: Enable auto merge
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - ready_for_review
+    branches:
+      - main
+      - develop
+
+jobs:
+  enable-auto-merge:
+    if: github.event.pull_request.draft == false
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - uses: alexwilson/enable-github-automerge-action@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
