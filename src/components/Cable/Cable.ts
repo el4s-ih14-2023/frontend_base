@@ -1,25 +1,25 @@
 export class Cable {
-    private plusTerminal: number[];
-    private minusTerminal: number[];
+  private plusTerminal: number[];
+  private minusTerminal: number[];
 
-    constructor(plusTerminal: number[], minusTerminal: number[]) {
-        this.plusTerminal = plusTerminal;
-        this.minusTerminal = minusTerminal;
-    }
+  constructor(plusTerminal: number[], minusTerminal: number[]) {
+    this.plusTerminal = plusTerminal;
+    this.minusTerminal = minusTerminal;
+  }
 
-    getPlusTerminal(): number[] {
-        return this.plusTerminal;
-    }
+  getPlusTerminal(): number[] {
+    return this.plusTerminal;
+  }
 
-    setPlusTerminal(plusTerminal: number[]): void {
-        this.plusTerminal = plusTerminal;
-    }
+  setPlusTerminal(plusTerminal: number[]): void {
+    this.plusTerminal = plusTerminal;
+  }
 
-    getMinusTerminal(): number[] {
-        return this.minusTerminal;
-    }
+  getMinusTerminal(): number[] {
+    return this.minusTerminal;
+  }
 
-    setMinusTerminal(minusTerminal: number[]): void {
-        this.minusTerminal = minusTerminal;
-    }
+  setMinusTerminal(minusTerminal: number[]): void {
+    this.minusTerminal = minusTerminal;
+  }
 }

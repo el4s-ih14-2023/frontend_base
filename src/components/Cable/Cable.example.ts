@@ -1,4 +1,4 @@
-import { Cable } from "./Cable";
+import { Cable } from './Cable';
 
 // 使用例:
 const plusTerminalCoords = [1, 2, 3];
