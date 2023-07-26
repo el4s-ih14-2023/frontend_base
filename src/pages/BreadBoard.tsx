@@ -157,7 +157,7 @@ const BreadBoard: NextPage = () => {
 
   // 列番 レイアウト
   const columnNum = () => {
-    let columns = [];
+    const columns = [];
     for (let i = 0; i < columnA; i++) {
       columns.push(i + 1);
     }
