@@ -10,7 +10,7 @@ const GPIOPage: React.FC = () => {
   const pins = Array.from({ length: 40 }, (_, index) => {
     const pinNumber = index + 1;
     const top = index < 20 ? 21 : 41;
-    const left = (index % 20) * 32 + 120;
+    const left = (index % 20) * 32 + 121;
     return { pinNumber, position: { top, left } };
   });
 

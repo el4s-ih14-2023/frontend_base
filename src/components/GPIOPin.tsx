@@ -47,9 +47,9 @@ const GPIOPin: React.FC<GPIOPinProps> = ({ pinNumber, onClick, position }) => {
         position: 'absolute',
         top: `${position.top}%`,
         left: `${position.left}px`,
-        width: '20px',
-        height: '20px',
-        border: '1px solid black',
+        width: '27px',
+        height: '27px',
+        border: '1px',
         borderRadius: '50%',
         cursor: 'pointer',
       }}
