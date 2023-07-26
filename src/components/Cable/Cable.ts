@@ -1,4 +1,4 @@
-class Cable {
+export class Cable {
     private plusTerminal: number[];
     private minusTerminal: number[];
 
