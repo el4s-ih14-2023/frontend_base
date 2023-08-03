@@ -106,7 +106,7 @@ const BreadBoard: NextPage = () => {
   // エリアA 穴 全体レイアウト
   const holeAreaA = () => {
     const columnHoles = [];
-    for (let i = 1; i < columnA + 1; i++) {
+    for (let i = 0; i < columnA; i++) {
       columnHoles.push(holeBlockA(i));
     }
     return columnHoles.map((columnHole, index) => (
@@ -170,7 +170,7 @@ const BreadBoard: NextPage = () => {
 
   return (
     <>
-      <div className="w-screnn h-screen flex justify-center items-center">
+      <div className="flex justify-center">
         {/* ブレッドーボード基盤 */}
         <div className="w-[30rem] h-[20rem] border-2 border-[#ccc] bg-slate-50 shadow-lg flex flex-col items-center justify-center">
           {/* エリア A */}
